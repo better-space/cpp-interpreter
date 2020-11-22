@@ -1,0 +1,13 @@
+int main(){
+	int x = 5;
+	int y = x*3;
+	if (x<=y) {
+		x = y+5;
+	} else {
+		x = x*4;
+	}
+	while (y<=x) {
+		x = x/2;
+	}
+	int z = y-x;
+}
